@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
+
+html , body{
     font-family: 'poppins';
+    overflow-x: hidden;
+}
+.container {
+    max-width: 2000px;  /* Limite máximo de largura */
+    margin: 0 auto;     /* Centraliza a div */
+    /* Opcional, para adicionar espaçamento interno */
 }
 .decore-img{
     display: flex;
@@ -46,7 +53,7 @@ header ul a{
     color: #000;
 }
 
-.container{
+.container-banner{
     display: flex;
     padding: 4rem 350px; 
     position: absolute;
