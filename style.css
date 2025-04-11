@@ -27,6 +27,10 @@ html , body{
     top: 0;
     z-index: 1;
 }
+.img-traveller{
+    overflow-x: hidden;
+    
+}
 
 header{
     display: flex;
@@ -60,4 +64,48 @@ header ul a{
     top: 10%;
     z-index: 10;
 }
+article h2{
+    font-weight: "bold";
+    color: #DF6951;
+    font-size: 20px;
+}
 
+.title-container{
+    padding:2rem 0;
+    width: 545px;
+}
+
+.title-container h1{
+    font-size: "bold";
+    color: #181E4B;
+    font-size: 84px;
+    font-family: "Volkhov";
+    line-height: 5rem;
+    text-align: start;
+
+}
+.title-container span{
+    text-decoration: underline #DF6951;
+}
+article p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E6282;
+}
+button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: #DF6951;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition:ease-in-out 0.5s;
+}
+
+button:hover{
+    background-color: #B73319;
+}
+article{
+    max-width: 500px;
+}
